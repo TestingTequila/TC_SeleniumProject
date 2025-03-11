@@ -1,0 +1,36 @@
+
+        //Annotations: We always use it along with methods
+        //Attributes : We use it along with Annotations
+        //Assertions : To validate
+
+    //Annotations: We always use it along with methods
+      @BeforeSuite
+      @BeforeTest
+      @BeforeClass  : This is executed only Once and that too Before @Test and @BeforeMethod annotation
+      @BeforeMethod : This will be executed before every @Test annotation
+      @Test         : Test Case
+      @AfterMethod  : This will be executed after every @Test annotation
+      @AfterClass
+      @AfterTest
+      @AfterSuite
+      ---------------------
+      @DataProvider
+      @Parameter
+      ================================================================================
+    //Attributes : We use it along with Annotations
+      priority: Defined execution order
+      enabled : Defines what is executed or not executed
+      timeOut : defines limit for time
+      groups  : for grouping test cases
+      dependsOnMethods: Will execute only if depending method passes else will be skipped
+      dependsOnGroups: Will execute only if depending all groups passes else will be skipped
+      alwaysRun: this will always be executed
+      invocationCount: will execute the test case for given number of count
+
+    //Assertions : To validate
+    AssertTrue: will validate true
+    AssertFalse: will validate false
+    AssertEquals: will compare expected with actual
+    AssertNotEquals: will compare expected with actual
+    Hard Vs Soft Assertion
+
