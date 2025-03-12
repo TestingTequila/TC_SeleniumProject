@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import pom.AccountLogin;
 import pom.MyAccount;
@@ -35,14 +36,14 @@ public class _1AllTestCases {
         driver.get(AppLevelData.URL);
         rm = new ReusableMethods(driver);
     }
-    @Test
+    @Test()
     public void login1() {
         AccountLogin al = new YourStore(driver).clickOnMyAccountIcon().clickOnLoginLink();
         al.enterCredentials(LoginPageData.EMAIL_ID, LoginPageData.PASSWORD);
         MyAccount ma = al.clickOnLoginButton();
         ma.validateLoginStatus();
     }
-    @Test
+    @Test()
     public void login2() {
         YourStore ys = new YourStore(driver);
         ys.clickOnMyAccountIcon();
@@ -51,20 +52,27 @@ public class _1AllTestCases {
         MyAccount ma = al.clickOnLoginButton();
         ma.validateLoginStatus();
     }
-    @Test
-    public void login3() {
+    @Test(dataProvider = "getData")
+    public void login3(String email, String password) {
         YourStore ys = new YourStore(driver);
         ys.clickOnMyAccountIcon();
         AccountLogin al = ys.clickOnLoginLink();
-        al.enterCredentials(LoginPageData.EMAIL_ID, LoginPageData.PASSWORD);
+        al.enterCredentials(email, password);
         MyAccount ma = al.clickOnLoginButton();
         ma.validateLoginStatus();
+    }
+
+    @DataProvider
+    public Object[][] getData()
+    {
+        Object[][] data= {{"jason.roger@janbask.com", "test@1234"},{"tek.chand@janbask.com", "test@1234"}, {"kerrie.wright@gmail.com", "test@1234"}};
+        return data;
     }
     @AfterMethod
     public void closeBrowser() {
         driver.close();
     }
-    @Test
+    @Test()
     public void registration() {
         rm.doClick(myAccountIcon);
         rm.doClick(registerLink);

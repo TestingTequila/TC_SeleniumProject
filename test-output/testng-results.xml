@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="33" passed="27" failed="6" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-12T19:48:02 IST" name="All Test Suite" finished-at="2025-03-12T19:49:19 IST" duration-ms="76918">
+    <groups>
+      <group name="smoke">
+        <method signature="TestNGConceptsAttributes.payment()[pri:-3, instance:tdd.TestNGConceptsAttributes@6ef888f6]" name="payment" class="tdd.TestNGConceptsAttributes"/>
+        <method signature="TestNGConceptsAttributes.login()[pri:2, instance:tdd.TestNGConceptsAttributes@6ef888f6]" name="login" class="tdd.TestNGConceptsAttributes"/>
+        <method signature="TestNGConceptsAttributes.addToCart()[pri:3, instance:tdd.TestNGConceptsAttributes@6ef888f6]" name="addToCart" class="tdd.TestNGConceptsAttributes"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-03-12T19:48:02 IST" name="C:/Users/91886/TC_SeleniumProject" finished-at="2025-03-12T19:49:19 IST" duration-ms="76918">
+      <class name="tdd.TestNGConceptsAttributes">
+        <test-method signature="payment()[pri:-3, instance:tdd.TestNGConceptsAttributes@6ef888f6]" started-at="2025-03-12T19:48:02 IST" name="payment" finished-at="2025-03-12T19:48:02 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payment -->
+        <test-method signature="registration()[pri:1, instance:tdd.TestNGConceptsAttributes@6ef888f6]" started-at="2025-03-12T19:49:18 IST" name="registration" finished-at="2025-03-12T19:49:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method signature="registration()[pri:1, instance:tdd.TestNGConceptsAttributes@6ef888f6]" started-at="2025-03-12T19:49:19 IST" name="registration" finished-at="2025-03-12T19:49:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method signature="registration()[pri:1, instance:tdd.TestNGConceptsAttributes@6ef888f6]" started-at="2025-03-12T19:49:19 IST" name="registration" finished-at="2025-03-12T19:49:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method signature="registration()[pri:1, instance:tdd.TestNGConceptsAttributes@6ef888f6]" started-at="2025-03-12T19:49:19 IST" name="registration" finished-at="2025-03-12T19:49:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method signature="registration()[pri:1, instance:tdd.TestNGConceptsAttributes@6ef888f6]" started-at="2025-03-12T19:49:19 IST" name="registration" finished-at="2025-03-12T19:49:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method signature="registration()[pri:1, instance:tdd.TestNGConceptsAttributes@6ef888f6]" started-at="2025-03-12T19:49:19 IST" name="registration" finished-at="2025-03-12T19:49:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method signature="registration()[pri:1, instance:tdd.TestNGConceptsAttributes@6ef888f6]" started-at="2025-03-12T19:49:19 IST" name="registration" finished-at="2025-03-12T19:49:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method signature="registration()[pri:1, instance:tdd.TestNGConceptsAttributes@6ef888f6]" started-at="2025-03-12T19:49:19 IST" name="registration" finished-at="2025-03-12T19:49:19 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method signature="registration()[pri:1, instance:tdd.TestNGConceptsAttributes@6ef888f6]" started-at="2025-03-12T19:49:19 IST" name="registration" finished-at="2025-03-12T19:49:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method signature="registration()[pri:1, instance:tdd.TestNGConceptsAttributes@6ef888f6]" started-at="2025-03-12T19:49:19 IST" name="registration" finished-at="2025-03-12T19:49:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method signature="login()[pri:2, instance:tdd.TestNGConceptsAttributes@6ef888f6]" started-at="2025-03-12T19:49:19 IST" name="login" finished-at="2025-03-12T19:49:19 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addToCart()[pri:3, instance:tdd.TestNGConceptsAttributes@6ef888f6]" started-at="2025-03-12T19:49:19 IST" name="addToCart" finished-at="2025-03-12T19:49:19 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at tdd.TestNGConceptsAttributes.addToCart(TestNGConceptsAttributes.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method signature="contactUs()[pri:0, instance:tdd.TestNGConceptsAttributes@6ef888f6]" started-at="2025-03-12T19:49:19 IST" name="contactUs" depends-on-groups="smoke" finished-at="2025-03-12T19:49:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUs -->
+      </class> <!-- tdd.TestNGConceptsAttributes -->
+      <class name="tdd.TestNGConceptsAssertions">
+        <test-method signature="check()[pri:0, instance:tdd.TestNGConceptsAssertions@1c93084c]" started-at="2025-03-12T19:48:02 IST" name="check" finished-at="2025-03-12T19:48:02 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at org.testng.Assert.assertFalse(Assert.java:89)
+at tdd.TestNGConceptsAssertions.check(TestNGConceptsAssertions.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check -->
+        <test-method signature="testTotal1()[pri:0, instance:tdd.TestNGConceptsAssertions@1c93084c]" started-at="2025-03-12T19:49:18 IST" name="testTotal1" finished-at="2025-03-12T19:49:18 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect [20] but found [20]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect [20] but found [20]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failEquals(Assert.java:1594)
+at org.testng.Assert.assertNotEqualsImpl(Assert.java:157)
+at org.testng.Assert.assertNotEquals(Assert.java:2217)
+at org.testng.Assert.assertNotEquals(Assert.java:2239)
+at tdd.TestNGConceptsAssertions.testTotal1(TestNGConceptsAssertions.java:15)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTotal1 -->
+        <test-method signature="testTotal2()[pri:0, instance:tdd.TestNGConceptsAssertions@1c93084c]" started-at="2025-03-12T19:49:18 IST" name="testTotal2" finished-at="2025-03-12T19:49:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTotal2 -->
+      </class> <!-- tdd.TestNGConceptsAssertions -->
+      <class name="tdd.TestNGConceptsAssertionSAndH">
+        <test-method signature="check()[pri:0, instance:tdd.TestNGConceptsAssertionSAndH@5be6e01c]" started-at="2025-03-12T19:48:02 IST" name="check" finished-at="2025-03-12T19:48:02 IST" duration-ms="16" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [false] but found [true]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at tdd.TestNGConceptsAssertionSAndH.check(TestNGConceptsAssertionSAndH.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check -->
+        <test-method signature="testTotal1()[pri:0, instance:tdd.TestNGConceptsAssertionSAndH@5be6e01c]" started-at="2025-03-12T19:49:18 IST" name="testTotal1" finished-at="2025-03-12T19:49:18 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect [20] but found [20]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect [20] but found [20]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failEquals(Assert.java:1594)
+at org.testng.Assert.assertNotEqualsImpl(Assert.java:157)
+at org.testng.Assert.assertNotEquals(Assert.java:2217)
+at org.testng.Assert.assertNotEquals(Assert.java:2239)
+at tdd.TestNGConceptsAssertionSAndH.testTotal1(TestNGConceptsAssertionSAndH.java:16)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTotal1 -->
+        <test-method signature="testTotal2()[pri:0, instance:tdd.TestNGConceptsAssertionSAndH@5be6e01c]" started-at="2025-03-12T19:49:18 IST" name="testTotal2" finished-at="2025-03-12T19:49:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTotal2 -->
+      </class> <!-- tdd.TestNGConceptsAssertionSAndH -->
+      <class name="tdd.ParameterTest">
+        <test-method signature="launchGoogle(java.lang.String)[pri:0, instance:tdd.ParameterTest@7880cdf3]" started-at="2025-03-12T19:48:02 IST" name="launchGoogle" finished-at="2025-03-12T19:48:02 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchGoogle -->
+      </class> <!-- tdd.ParameterTest -->
+      <class name="testCasesWithTestNg._1AllTestCases">
+        <test-method is-config="true" signature="openBrowserAndEnterUrl()[pri:0, instance:testCasesWithTestNg._1AllTestCases@67a20f67]" started-at="2025-03-12T19:48:02 IST" name="openBrowserAndEnterUrl" finished-at="2025-03-12T19:48:12 IST" duration-ms="10751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndEnterUrl -->
+        <test-method signature="login1()[pri:0, instance:testCasesWithTestNg._1AllTestCases@67a20f67]" started-at="2025-03-12T19:48:12 IST" name="login1" finished-at="2025-03-12T19:48:15 IST" duration-ms="2996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCasesWithTestNg._1AllTestCases@67a20f67]" started-at="2025-03-12T19:48:15 IST" name="closeBrowser" finished-at="2025-03-12T19:48:16 IST" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowserAndEnterUrl()[pri:0, instance:testCasesWithTestNg._1AllTestCases@67a20f67]" started-at="2025-03-12T19:48:16 IST" name="openBrowserAndEnterUrl" finished-at="2025-03-12T19:48:25 IST" duration-ms="8822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndEnterUrl -->
+        <test-method signature="login2()[pri:0, instance:testCasesWithTestNg._1AllTestCases@67a20f67]" started-at="2025-03-12T19:48:25 IST" name="login2" finished-at="2025-03-12T19:48:26 IST" duration-ms="1774" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Account Login] but found [My Account]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Account Login] but found [My Account]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at commonactions.ReusableMethods.doValidateStatus(ReusableMethods.java:30)
+at pom.MyAccount.validateLoginStatus(MyAccount.java:19)
+at testCasesWithTestNg._1AllTestCases.login2(_1AllTestCases.java:53)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login2 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCasesWithTestNg._1AllTestCases@67a20f67]" started-at="2025-03-12T19:48:26 IST" name="closeBrowser" finished-at="2025-03-12T19:48:27 IST" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowserAndEnterUrl()[pri:0, instance:testCasesWithTestNg._1AllTestCases@67a20f67]" started-at="2025-03-12T19:48:27 IST" name="openBrowserAndEnterUrl" finished-at="2025-03-12T19:48:31 IST" duration-ms="3769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndEnterUrl -->
+        <test-method signature="login3(java.lang.String,java.lang.String)[pri:0, instance:testCasesWithTestNg._1AllTestCases@67a20f67]" started-at="2025-03-12T19:48:31 IST" name="login3" data-provider="getData" finished-at="2025-03-12T19:48:39 IST" duration-ms="8414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jason.roger@janbask.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login3 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCasesWithTestNg._1AllTestCases@67a20f67]" started-at="2025-03-12T19:48:39 IST" name="closeBrowser" finished-at="2025-03-12T19:48:39 IST" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowserAndEnterUrl()[pri:0, instance:testCasesWithTestNg._1AllTestCases@67a20f67]" started-at="2025-03-12T19:48:39 IST" name="openBrowserAndEnterUrl" finished-at="2025-03-12T19:48:48 IST" duration-ms="8493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndEnterUrl -->
+        <test-method signature="login3(java.lang.String,java.lang.String)[pri:0, instance:testCasesWithTestNg._1AllTestCases@67a20f67]" started-at="2025-03-12T19:48:48 IST" name="login3" data-provider="getData" finished-at="2025-03-12T19:48:51 IST" duration-ms="2950" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tek.chand@janbask.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login3 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCasesWithTestNg._1AllTestCases@67a20f67]" started-at="2025-03-12T19:48:51 IST" name="closeBrowser" finished-at="2025-03-12T19:48:51 IST" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowserAndEnterUrl()[pri:0, instance:testCasesWithTestNg._1AllTestCases@67a20f67]" started-at="2025-03-12T19:48:51 IST" name="openBrowserAndEnterUrl" finished-at="2025-03-12T19:48:55 IST" duration-ms="3444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndEnterUrl -->
+        <test-method signature="login3(java.lang.String,java.lang.String)[pri:0, instance:testCasesWithTestNg._1AllTestCases@67a20f67]" started-at="2025-03-12T19:48:55 IST" name="login3" data-provider="getData" finished-at="2025-03-12T19:49:03 IST" duration-ms="8407" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kerrie.wright@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login3 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCasesWithTestNg._1AllTestCases@67a20f67]" started-at="2025-03-12T19:49:03 IST" name="closeBrowser" finished-at="2025-03-12T19:49:03 IST" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowserAndEnterUrl()[pri:0, instance:testCasesWithTestNg._1AllTestCases@67a20f67]" started-at="2025-03-12T19:49:03 IST" name="openBrowserAndEnterUrl" finished-at="2025-03-12T19:49:13 IST" duration-ms="9319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndEnterUrl -->
+        <test-method signature="registration()[pri:0, instance:testCasesWithTestNg._1AllTestCases@67a20f67]" started-at="2025-03-12T19:49:13 IST" name="registration" finished-at="2025-03-12T19:49:18 IST" duration-ms="5533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testCasesWithTestNg._1AllTestCases@67a20f67]" started-at="2025-03-12T19:49:18 IST" name="closeBrowser" finished-at="2025-03-12T19:49:18 IST" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCasesWithTestNg._1AllTestCases -->
+      <class name="tdd.TestNGConcepts">
+        <test-method is-config="true" signature="createDatabase()[pri:0, instance:tdd.TestNGConcepts@149e0f5d]" started-at="2025-03-12T19:48:02 IST" name="createDatabase" finished-at="2025-03-12T19:48:02 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDatabase -->
+        <test-method is-config="true" signature="connectToDatabase()[pri:0, instance:tdd.TestNGConcepts@149e0f5d]" started-at="2025-03-12T19:48:02 IST" name="connectToDatabase" finished-at="2025-03-12T19:48:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectToDatabase -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:tdd.TestNGConcepts@149e0f5d]" started-at="2025-03-12T19:48:02 IST" name="openBrowser" finished-at="2025-03-12T19:48:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="enterUrlInBrowser()[pri:0, instance:tdd.TestNGConcepts@149e0f5d]" started-at="2025-03-12T19:48:02 IST" name="enterUrlInBrowser" finished-at="2025-03-12T19:48:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUrlInBrowser -->
+        <test-method signature="addToCart()[pri:0, instance:tdd.TestNGConcepts@149e0f5d]" started-at="2025-03-12T19:48:02 IST" name="addToCart" finished-at="2025-03-12T19:48:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="removeUrlInBrowser()[pri:0, instance:tdd.TestNGConcepts@149e0f5d]" started-at="2025-03-12T19:48:02 IST" name="removeUrlInBrowser" finished-at="2025-03-12T19:48:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeUrlInBrowser -->
+        <test-method is-config="true" signature="enterUrlInBrowser()[pri:0, instance:tdd.TestNGConcepts@149e0f5d]" started-at="2025-03-12T19:48:02 IST" name="enterUrlInBrowser" finished-at="2025-03-12T19:48:02 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUrlInBrowser -->
+        <test-method signature="login()[pri:0, instance:tdd.TestNGConcepts@149e0f5d]" started-at="2025-03-12T19:48:02 IST" name="login" finished-at="2025-03-12T19:48:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="removeUrlInBrowser()[pri:0, instance:tdd.TestNGConcepts@149e0f5d]" started-at="2025-03-12T19:48:02 IST" name="removeUrlInBrowser" finished-at="2025-03-12T19:48:02 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeUrlInBrowser -->
+        <test-method signature="registration()[pri:0, instance:tdd.TestNGConcepts@149e0f5d]" started-at="2025-03-12T19:49:03 IST" name="registration" finished-at="2025-03-12T19:49:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method is-config="true" signature="enterUrlInBrowser()[pri:0, instance:tdd.TestNGConcepts@149e0f5d]" started-at="2025-03-12T19:49:03 IST" name="enterUrlInBrowser" finished-at="2025-03-12T19:49:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUrlInBrowser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tdd.TestNGConcepts@149e0f5d]" started-at="2025-03-12T19:49:03 IST" name="closeBrowser" finished-at="2025-03-12T19:49:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="removeUrlInBrowser()[pri:0, instance:tdd.TestNGConcepts@149e0f5d]" started-at="2025-03-12T19:49:03 IST" name="removeUrlInBrowser" finished-at="2025-03-12T19:49:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeUrlInBrowser -->
+        <test-method is-config="true" signature="disconnectToDatabase()[pri:0, instance:tdd.TestNGConcepts@149e0f5d]" started-at="2025-03-12T19:49:19 IST" name="disconnectToDatabase" finished-at="2025-03-12T19:49:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disconnectToDatabase -->
+        <test-method is-config="true" signature="deleteDatabase()[pri:0, instance:tdd.TestNGConcepts@149e0f5d]" started-at="2025-03-12T19:49:19 IST" name="deleteDatabase" finished-at="2025-03-12T19:49:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteDatabase -->
+      </class> <!-- tdd.TestNGConcepts -->
+      <class name="tdd.TestNgDataProviders">
+        <test-method signature="registration(java.lang.String,int)[pri:0, instance:tdd.TestNgDataProviders@10e92f8f]" started-at="2025-03-12T19:49:03 IST" name="registration" data-provider="getData" finished-at="2025-03-12T19:49:03 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ashish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method signature="registration(java.lang.String,int)[pri:0, instance:tdd.TestNgDataProviders@10e92f8f]" started-at="2025-03-12T19:49:03 IST" name="registration" data-provider="getData" finished-at="2025-03-12T19:49:03 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jason]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[44]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method signature="registration(java.lang.String,int)[pri:0, instance:tdd.TestNgDataProviders@10e92f8f]" started-at="2025-03-12T19:49:03 IST" name="registration" data-provider="getData" finished-at="2025-03-12T19:49:03 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kerrie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+      </class> <!-- tdd.TestNgDataProviders -->
+    </test> <!-- C:/Users/91886/TC_SeleniumProject -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

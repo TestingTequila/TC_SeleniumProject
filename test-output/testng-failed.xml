@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/91886/TC_SeleniumProject(failed)">
+    <parameter name="url" value="https://www.google.com"/>
+    <classes>
+      <class name="tdd.TestNGConceptsAssertions">
+        <methods>
+          <include name="testTotal1"/>
+          <include name="check"/>
+        </methods>
+      </class> <!-- tdd.TestNGConceptsAssertions -->
+      <class name="tdd.TestNGConceptsAssertionSAndH">
+        <methods>
+          <include name="testTotal1"/>
+          <include name="check"/>
+        </methods>
+      </class> <!-- tdd.TestNGConceptsAssertionSAndH -->
+      <class name="tdd.TestNGConceptsAttributes">
+        <methods>
+          <include name="addToCart"/>
+        </methods>
+      </class> <!-- tdd.TestNGConceptsAttributes -->
+      <class name="testCasesWithTestNg._1AllTestCases">
+        <methods>
+          <include name="login2"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowserAndEnterUrl"/>
+        </methods>
+      </class> <!-- testCasesWithTestNg._1AllTestCases -->
+    </classes>
+  </test> <!-- C:/Users/91886/TC_SeleniumProject(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

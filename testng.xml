@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/91886/TC_SeleniumProject">
+        <classes>
+            <class name="tdd.TestNGConcepts">
+                <methods>
+                    <include name="addToCart"/>
+                    <include name="registration"/>
+                    <include name="login"/>
+                </methods>
+            </class>
+            <class name="tdd.TestNGConceptsAssertionSAndH">
+                <methods>
+                    <include name="testTotal1"/>
+                    <include name="testTotal2"/>
+                    <include name="check"/>
+                </methods>
+            </class>
+            <class name="tdd.TestNGConceptsAssertions">
+                <methods>
+                    <include name="testTotal1"/>
+                    <include name="testTotal2"/>
+                    <include name="check"/>
+                </methods>
+            </class>
+            <class name="tdd.TestNGConceptsAttributes">
+                <methods>
+                    <include name="registration"/>
+                    <include name="login"/>
+                    <include name="addToCart"/>
+                    <include name="payment"/>
+                    <include name="contactUs"/>
+                </methods>
+            </class>
+            <class name="tdd.TestNgDataProviders">
+                <methods>
+                    <include name="registration"/>
+                </methods>
+            </class>
+            <class name="testCasesWithTestNg._1AllTestCases">
+                <methods>
+                    <include name="login1"/>
+                    <include name="login2"/>
+                    <include name="login3"/>
+                    <include name="registration"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
