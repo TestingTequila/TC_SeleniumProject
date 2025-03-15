@@ -14,8 +14,9 @@
       @AfterTest
       @AfterSuite
       ---------------------
-      @DataProvider
-      @Parameter
+      @DataProvider: Fetching multiple data: Parametrization
+      @Parameter   : To fetch data from xml file
+      @Optional    : @Optional [used with @parameters only] : The only annotation that is passed as parameter of a method
       ================================================================================
     //Attributes : We use it along with Annotations
       priority: Defined execution order

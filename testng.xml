@@ -2,6 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/91886/TC_SeleniumProject">
+        <parameter name="url" value="https://www.google.com"></parameter>
         <classes>
             <class name="tdd.TestNGConcepts">
                 <methods>
@@ -9,6 +10,11 @@
                     <include name="registration"/>
                     <include name="login"/>
                 </methods>
+            </class>
+            <class name="tdd.ParameterAnnotation">
+<!--                <methods>-->
+<!--                    <include name="getGoogleApplication"/>-->
+<!--                </methods>-->
             </class>
             <class name="tdd.TestNGConceptsAssertionSAndH">
                 <methods>
